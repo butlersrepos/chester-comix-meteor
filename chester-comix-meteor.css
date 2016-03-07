@@ -1,0 +1,32 @@
+.logo-home {
+	font-weight: bold;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 10px auto;
+}
+
+.logo-home img {
+	max-width: 50%;
+	height: 8vh;
+}
+
+#current_post {
+	display: none;
+}
+
+#current_post img {
+	float: left;
+	margin-right: 3vw;
+	margin-bottom: 3vw;
+}
+
+.loadMore {
+	display: none;
+}
+
+footer {
+	background: #f2f2f2;
+	display: none;
+	padding: 10px 0 0 0;
+}
