@@ -30,7 +30,7 @@ Meteor.methods({
 		});
 		return true;
 	},
-	getPosts   : function(ppp) {
+	getPosts   : function() {
 		console.log('getPosts called');
 		this.unblock();
 		var apiUrl = "http://www.chestercomix.com/app/api/comix/";

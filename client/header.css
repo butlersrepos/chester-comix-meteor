@@ -1,3 +1,7 @@
+#logo-title {
+	font-size: 2rem;
+}
+
 .logo-home {
 	font-weight: bold;
 	display: flex;
@@ -23,10 +27,4 @@
 
 .loadMore {
 	display: none;
-}
-
-footer {
-	background: #f2f2f2;
-	display: none;
-	padding: 10px 0 0 0;
 }

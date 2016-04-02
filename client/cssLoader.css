@@ -1,4 +1,5 @@
 div.spinner {
+	font-size: 3rem;
 	margin: auto;
 }
 
@@ -6,8 +7,8 @@ div.spinner:before,
 div.spinner:after {
 	content: "";
 	display: block;
-	height: 50px;
-	width: 50px;
+	height: 5em;
+	width: 5em;
 	border: 2px solid #000;
 	border-radius: 50%;
 	border-right-color: transparent;
@@ -16,15 +17,15 @@ div.spinner:after {
 	position: absolute;
 	left: 50%;
 	top: 50%;
-	margin-left: -25px;
-	margin-top: -25px;
+	margin-left: -2.5em;
+	margin-top: -2.5em;
 }
 
 div.spinner:before {
-	height: 30px;
-	width: 30px;
-	margin-left: -15px;
-	margin-top: -15px;
+	height: 3em;
+	width: 3em;
+	margin-left: -1.5em;
+	margin-top: -1.5em;
 	border-left-color: transparent;
 	border-bottom-color: #000;
 	border-top-color: #000;
